@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Education Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- --------------Header------------- -->
+
+        <section class="header">
+            <nav>
+                <a href="index.html" target="_main"><img src="images/Logo.jpg" alt="Logo"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="home.html" target="main">Home</a></li>
+                        <li><a href="about.html" target="_main">About</a></li>
+                        <li><a href="Course.html" target="_main">Course</a></li>
+                        <li><a href="Blog.html" target="_main">Blog</a></li>
+                        <li><a href="Contact.html" target="_main">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>World's Top Ranked University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Similique suscipit eius ducimus perspiciatis in minima explicabo animi esse recusandae aperiam.</p>
+                <a href="#" class="btn">Visit Us To Know More</a>
+            </div>
+        </section>
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showMenu() {
+             navlinks.style.right ="0";
+            }
+            var navlinks=document.getElementById("navlinks");
+            function hideMenu() {
+             navlinks.style.right ="-200px";
+            }
+            var navlinks=document.getElementById("navlinks");
+            function hideMenu() {
+             navlinks.style.right ="-200px";
+            }
+        </script>
+        </section>
+
+        <!-- --------------Course--------------- -->
+
+
+        <section class="course">
+             <h1>Courses We Offer</h1>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+             <div class="row">
+                 <div class="course-col">
+                 <h1>Intermediate</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit saepe ab, officia aspernatur eligendi ad numquam? Iusto nisi, illum ab rem ducimus voluptatibus iure exercitationem, molestias non eos minus repudiandae?</p>
+             </div>
+                 <div class="course-col">
+                 <h1>Degree</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit saepe ab, officia aspernatur eligendi ad numquam? Iusto nisi, illum ab rem ducimus voluptatibus iure exercitationem, molestias non eos minus repudiandae?</p>
+             </div>
+                 <div class="course-col">
+                 <h1>Post Graduation</h1>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit saepe ab, officia aspernatur eligendi ad numquam? Iusto nisi, illum ab rem ducimus voluptatibus iure exercitationem, molestias non eos minus repudiandae?</p>
+             </div>
+            </div>
+        </section>
+      
+    </body>
+    
+    <!-- <img src="https://source.unsplash.com/1600x900/?school,university" alt="Education"> -->
+</html>
